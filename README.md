@@ -1,14 +1,6 @@
-T02 - NEKA
+This semester long project was an "internship at TripCo, a startup travel planning company." In a team of 4 people, we built an application using scrum-based development to support the business. From the begining to the end of the semester, the development team completed 5 3-week sprints that accomplished: 
 
-* Amber Nolte, alnolte, alnolte
-* Emerson McIntosh, emcintos, emcintos
-* Nicole Kacirek, nkacirek, nkacirek1
-* Kira Miller, kiram15, kiram15
-
-Sprint Number | Model - Data | Model - Itinerary | View - Server | View - Client 
------------------ | -------------- | ------------------- | ---------------- | ---------------
-1 |  KIRA | AMBER | NICOLE | EMERSON
-2 | EMERSON | NICOLE | AMBER | KIRA
-3 | AMBER | KIRA | EMERSON | NICOLE
-4 | ALL | ALL | ALL | ALL
-5 | ALL | ALL | ALL | ALL 
+- Reading data from a CSV file to interacting with a SQL database.
+- Creating an iterinerary from computing the mileage between destinations, to ordering the destinations for the most efficient trip using Nearest Neighbor, 2-opt, and 3-opt algorithms.
+- A JSON version of the itinerary to a server that packaged the information needed by the to render the itinerary and deliver it.
+- A client that just rendered the information it was provided, to an interactive single page application.
